@@ -1,7 +1,5 @@
 body{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(178, 223, 150) 0%, rgb(3, 139, 60) 35%, rgb(3, 99, 43) 100%);
-    
 }
 
 .loginForm h3 {
@@ -11,12 +9,13 @@ body{
     margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    color: #1a2cce;
 }
   .loginForm {
     padding: 30px 40px;
     width: 400px;
     height: 400px; 
-    background-color: #fff;
+    background-color: rgba(15, 14, 14,.2);
     margin-top: 110px;
   }
   .form-group {
@@ -30,23 +29,35 @@ body{
     font-weight: 500;
   }
   .form-group input {
-    border: 2px solid #aaa;
     width: 100%;
     padding: 10px;
     font-size: 14px;
     border-radius: 3px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+  }
+  .form-group input:focus{
+    background: transparent;
+    border: none;
+    outline: none;
+    -webkit-box-shadow:none;
+    box-shadow: none;
   }
   .forgotPassword{
     padding-left: 170px;
     padding-right: 0px;
+    color: #1a2cce;
+    text-decoration: none;
+    font-weight: 600;
   }
   .loginForm button {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
-    color: #fff;
-    background-color: #1ace41;
     text-transform: uppercase;
     font-weight: 500;
     border-radius: 3px;
+    border: none;
   }

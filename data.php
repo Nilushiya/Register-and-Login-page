@@ -30,7 +30,7 @@
     }
     $connection = mysqli_connect($server,$username,$password,$db_name);
     if(isset($_POST['submit'])){
-        $name = $_POST['FullName'];
+        $name = $_POST['FullName']; 
         $mail = $_POST['mail'];
         $password = $_POST['Password'];
 
